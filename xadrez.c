@@ -4,6 +4,7 @@ int main() {
     int bispo = 1;
     int rainha = 1;
     int torre = 5;
+    int cavalo = 1;
 
     // Movimento do Bispo (while)
     printf("Movimento do BISPO:\n");
@@ -29,5 +30,18 @@ int main() {
         printf("Direita\n");
     }
 
+    printf("\n");
+
+    // Movimento Cavalo (loop aninhados)
+    printf("Movimento do CAVALO:\n");
+      while (cavalo --)
+    {
+        for (int i = 0; i < 2; i++) {
+            printf("BAIXO\n");
+        }
+        printf("ESQUERDA\n"); 
+    }
+
     return 0;
+
 }
